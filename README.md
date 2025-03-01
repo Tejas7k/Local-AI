@@ -15,7 +15,7 @@ Local AI is a web application that allows you to interact with LLM (Large Langua
 
 Watch the demo video to see Local AI in action:
 
-[Link to your demo video in the `sample` folder, e.g., `sample/demo.mp4`](sample/demo.mp4)
+[Link to your demo video in the `sample` folder, e.g., `sample/demo.mp4`](sample/DEMO.mp4)
 
 ## Prerequisites
 
@@ -67,23 +67,23 @@ Watch the demo video to see Local AI in action:
 ## Usage
 
 1.  **Enter your query:**
-    ![Screenshot of the input field](sample/input_field.png)
+    ![Screenshot of the input field](sample/Query.png)
     Enter your query in the input field.
 
 2.  **Click the "Generate" button:**
-    ![Screenshot of the generate button](sample/generate_button.png)
+    ![Screenshot of the generate button](sample/Generate.png)
     Click the "Generate" button to send the query.
 
 3.  **View the response:**
-    ![Screenshot of the response area](sample/response_area.png)
+    ![Screenshot of the response area](sample/Response_View.png)
     View the response in the response area.
 
 4.  **Copy the response:**
-    ![Screenshot of the copy response button](sample/copy_response_button.png)
+    ![Screenshot of the copy response button](sample/Copy_whole.png)
     Use the "Copy Response" button to copy the entire response.
 
 5.  **Copy code blocks:**
-    ![Screenshot of the copy code button](sample/copy_code_button.png)
+    ![Screenshot of the copy code button](sample/copy_code_block.png)
     Use the "Copy" buttons next to code blocks to copy individual code snippets.
 
 ## Contributing
