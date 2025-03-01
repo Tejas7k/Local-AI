@@ -15,10 +15,7 @@ Local AI is a privacy-focused web application that enables you to interact with 
 
 Check out the demo video showcasing Local AI in action:  
 
-<video width="600" controls>
-  <source src="sample/DEMO.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Demo](sample/DEMO.mp4)](sample/DEMO.mp4) 
 
 ## 🔧 Prerequisites  
 
