@@ -1,4 +1,4 @@
-# Local AI 🚀  
+# Local AI 🤖
 
 Local AI is a privacy-focused web application that enables you to interact with Large Language Models (LLMs) while keeping your data secure. Unlike cloud-based AI services, Local AI processes all queries locally, ensuring complete confidentiality.
 
