@@ -120,6 +120,4 @@ This project was made possible with the help of the following technologies:
 - [LLM Privacy](https://www.llmprivacy.com/) – Ensuring data security and privacy for AI interactions.  
 
 
----
 🚀 _Developed with ❤️ for privacy-conscious AI users._
-```
