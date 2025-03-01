@@ -110,13 +110,16 @@ This project is licensed under the MIT License. See the [LICENSE](License)
 
 ## 🙌 Acknowledgments  
 
-Special thanks to:  
-- **LLM Models** for AI capabilities  
-- **Flask** for backend framework  
-- **marked.js & Prism.js** (if used) for UI enhancements  
+This project was made possible with the help of the following technologies:  
+
+- [Python](https://www.python.org/) – The core programming language used in this project.  
+- [Flask](https://flask.palletsprojects.com/) – A lightweight WSGI web framework for Python.  
+- [Requests](https://docs.python-requests.org/en/latest/) – For handling API requests.  
+- [Tenacity](https://tenacity.readthedocs.io/en/latest/) – For handling retries and failures.  
+- [LLM API](https://platform.openai.com/docs/) – Used for generating AI-powered responses.  
+- [LLM Privacy](https://www.llmprivacy.com/) – Ensuring data security and privacy for AI interactions.  
+
 
 ---
 🚀 _Developed with ❤️ for privacy-conscious AI users._
 ```
-
-Now you can copy the whole thing easily! Let me know if you need any modifications. 🚀
