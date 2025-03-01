@@ -32,7 +32,7 @@ Follow these steps to set up and run Local AI:
 ### 1️⃣ Clone the Repository  
 
 ```bash
-git clone https://github.com/your-username/LocalAI.git
+git clone https://github.com/Tejas7k/LocalAI.git
 cd LocalAI
 ```
 
