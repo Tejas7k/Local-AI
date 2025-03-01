@@ -1,0 +1,226 @@
+/* Dark Theme */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.form-title {
+    display: flex;
+    align-items: center;
+}
+
+.form-title img {
+    height: 60px; /* Adjust the height as needed */
+    margin-right: 50px; /* Adjust the space between the image and text */
+    border-radius: 20%;
+}
+
+/* Background Animation */
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-45deg, #ff0099, #4900ff, #00ffee, #ff7700);
+    background-size: 400% 400%;
+    animation: gradientShift 8s infinite alternate ease-in-out;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+@keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+/* Form Container */
+.container {
+    position: fixed; /* Keep it in place */
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    background: rgba(30, 30, 30, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgb(255, 0, 225), rgb(0, 234, 255);
+}
+
+/* Input Field */
+#query {
+    width: 90%;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background-color: #222;
+    color: #fff;
+    text-align: left;
+    transition: 0.3s;
+}
+
+#query:focus {
+    box-shadow: 0 0 7px #fd03d7;
+}
+
+/* Electric Hover Effect on Button */
+#generate-btn {
+    width: 15%;
+    padding: 8px;
+    font-size: 15px;
+    background: #000000;
+    color: #ffffff;
+    border-image: linear-gradient(to right, rgb(255, 0, 225), rgb(0, 234, 255));
+    border-image-slice: 1;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+#generate-btn:hover {
+    box-shadow: 0 0 7px #0166a9;
+}
+
+#generate-btn::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: rgba(11, 11, 11, 0.2);
+    border-radius: 8px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#generate-btn:hover::before {
+    opacity: 1;
+}
+
+
+
+#response-container {
+    margin-top: 30px; /* Push it below the form */
+    width: 95%;
+    max-height: 400px; /* Set max height to prevent overflow */
+    overflow-y: auto; /* Enable scrolling */
+    background: #121212;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Left-align the response text */
+#response {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ddd;
+}
+
+pre {
+    background-color: #333; /* Darker background */
+    color: #ddd; /* Lighter text for contrast */
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+code {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+
+.animate {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#loading-gif {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 200px; /* Adjust size as needed */
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.copy-button {
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 6px 12px;
+    background-color: #333;
+    border: none;
+    color: #ddd;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 10px;
+    vertical-align: top; /* Align with the top of the code block */
+    transition: background 0.3s ease, color 0.3s ease;
+}
+.copy-button:hover {
+    background: linear-gradient(90deg, #ff7a00, #f7f5f6); 
+    color: #000000;
+}
+
+pre {
+    position: relative; /* Needed for absolute positioning of the button */
+    display: inline-block; /* or block, depending on your layout */
+}
+.copy-button {
+    position: absolute;
+    top: 0px; /* Adjust as needed */
+    right: 2px; /* Adjust as needed */
+}
+.copy-button1 {
+    margin-left: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: linear-gradient(90deg, #f7f5f6, #4900ff);
+    border: none;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 7px;
+    vertical-align: top; /* Align with the top of the code block */
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.copy-button1 {
+    position: absolute;
+    top: 310px; /* Adjust as needed */
+    left: 12px; /* Adjust as needed */
+}
+.copy-button1:hover {
+    position: absolute;
+    background: linear-gradient(90deg, #4900ff, #f7f5f6); /* Reverse gradient on hover */
+    color: #fff;
+}

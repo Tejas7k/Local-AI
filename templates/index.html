@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOCAL AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/marked@11.0.0/marked.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="container">
+        <h1 class="form-title">
+            <img src="{{ url_for('static', filename='TEJAS KHUTWAD_20250209_195754_0001.gif') }}" alt="GIF Image" class="gif-image">
+            <h1> LOCAL AI</h1>
+        </h1>
+        <form id="query-form">
+            <input type="text" id="query" placeholder="Ask me anything..." autocomplete="off">
+            <button type="submit" id="generate-btn">⚡Generate </button>
+        </form>
+        <img id="loading-gif" src="{{ url_for('static', filename='loder7.gif') }}" alt="Loading..." style="display: none;">
+<div id="response-container">
+    <p id="response"></p>
+    <button id="copy-response-btn" class="copy-button1">Copy</button>
+</div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
