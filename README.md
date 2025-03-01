@@ -106,7 +106,7 @@ Contributions are welcome! Feel free to submit pull requests or report issues.
 
 ## 📜 License  
 
-[Insert your license here, e.g., MIT License]  
+This project is licensed under the MIT License. See the [LICENSE](License)
 
 ## 🙌 Acknowledgments  
 
