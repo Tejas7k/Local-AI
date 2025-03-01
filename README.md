@@ -15,7 +15,7 @@ Local AI is a web application that allows you to interact with LLM (Large Langua
 
 Watch the demo video to see Local AI in action:
 
-[Link to your demo video in the `sample` folder, e.g., `sample/demo.mp4`](sample/DEMO.mp4)
+[demo of the project](sample/DEMO.mp4)
 
 ## Prerequisites
 
